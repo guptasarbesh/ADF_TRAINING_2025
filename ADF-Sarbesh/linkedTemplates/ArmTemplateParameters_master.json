@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADF-Sarbesh"
+		},
+		"LS_DS_ConnectionString_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_KeyValut_properties_typeProperties_url": {
+			"value": "https://sarbeshstorage.dfs.core.windows.net/"
+		},
+		"LS_DS_ConnectionString_properties_typeProperties_url": {
+			"value": "https://sarbeshstorage.dfs.core.windows.net/"
+		},
+		"LSsarbeshkeyValut_properties_typeProperties_baseUrl": {
+			"value": "https://sarbesh-key-valut.vault.azure.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}

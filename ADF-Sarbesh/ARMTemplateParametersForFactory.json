@@ -8,11 +8,23 @@
 		"LS_DS_ConnectionString_accountKey": {
 			"value": ""
 		},
+		"LS_SQLServer_password": {
+			"value": ""
+		},
 		"LS_ADLS_KeyValut_properties_typeProperties_url": {
 			"value": "https://sarbeshstorage.dfs.core.windows.net/"
 		},
 		"LS_DS_ConnectionString_properties_typeProperties_url": {
 			"value": "https://sarbeshstorage.dfs.core.windows.net/"
+		},
+		"LS_SQLServer_properties_typeProperties_server": {
+			"value": "sarbeshgupta.database.windows.net"
+		},
+		"LS_SQLServer_properties_typeProperties_database": {
+			"value": "sarbesh_db_sql"
+		},
+		"LS_SQLServer_properties_typeProperties_userName": {
+			"value": "sarbeshgupta"
 		},
 		"LSsarbeshkeyValut_properties_typeProperties_baseUrl": {
 			"value": "https://sarbesh-key-valut.vault.azure.net/"

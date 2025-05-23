@@ -1,0 +1,23 @@
+{
+	"name": "DS_CopyBehaviour_Merge",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_DS_ConnectionString",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "copybehavioursrc"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": ""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "ADF-Sarbesh",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "80cf4b75-6097-48c3-a886-f7d3050d90d4",
+		"tenantId": "47e6147c-395c-4db9-8029-4a4ec5541dd1"
+	}
+}

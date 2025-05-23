@@ -1,0 +1,11 @@
+{
+	"name": "LSsarbeshkeyValut",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://sarbesh-key-valut.vault.azure.net/"
+		}
+	}
+}

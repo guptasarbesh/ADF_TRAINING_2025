@@ -1,0 +1,19 @@
+{
+	"name": "LS_ADLS_KeyValut",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://sarbeshstorage.dfs.core.windows.net/",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LSsarbeshkeyValut",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sarbesh-secret-key"
+			}
+		}
+	}
+}

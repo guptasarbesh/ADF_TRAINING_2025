@@ -1,0 +1,27 @@
+{
+	"name": "dept",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_DS_ConnectionString",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "dept.xlsx",
+				"fileSystem": "exceltosql"
+			}
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	}
+}

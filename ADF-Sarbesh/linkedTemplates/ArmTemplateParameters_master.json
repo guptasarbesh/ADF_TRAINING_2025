@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "ADF-Sarbesh"
 		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
 		"LS_DS_ConnectionString_accountKey": {
 			"value": ""
 		},
